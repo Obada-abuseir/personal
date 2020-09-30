@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Obada</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header  {
+  background-color: #333333;
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 10%;
+  height: 500px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ol {
+  list-style-type: disc;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 90%;
+  background-color: #f1f1f1;
+  height: 500px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 0.5px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+   display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center";>OBADA ABUSEIR </h1>
+<header>
+
+  <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="header\MyPhotos.htm">Photo</a></li>
+  <li><a href="header\contact.htm">Contact</a></li>
+  <li><a href="header\about.htm">About</a></li>
+</ul>
+
+</header>
+
+<section>
+  <nav>
+<p><b><mark>In the future</mark></b></p>
+<div>
+    <ol>
+      <li><a href="services/monyex.htm">In the future</a></li>
+      <li><a href="#">In the future</a></li>
+      <li><a href="services/th.htm">In the future</a></li>
+      <li><a href="#">In the future</a></li>
+    </ol>
+</div>
+  </nav>
+  
+  <article>
+    <h2>About me</h2>
+    <p>My name is Obada Abuseir,</p>
+    <p> a student at An-Najah National University </p>
+    <p> College of Engineering and Information Technology / Computer Information Systems major</p>
+    <address> Address : Nablus- Nourthen mountain</address>
+   
+  </article>
+</section>
+
+<footer>
+  <p>Obada Abuseir</p>
+</footer>
+
+</body>
+</html>
